@@ -1,0 +1,23 @@
+{
+  "name": "Tyngsboro Underground",
+  "version": "1.2.1",
+  "description": "Tyngsborough Underground Chatting Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "James Porter",
+  "license": "MIT",
+  "dependencies": {
+    "anchorme": "^2.1.2",
+    "bad-words": "^3.0.4",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
